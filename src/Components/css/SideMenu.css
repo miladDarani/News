@@ -1,0 +1,89 @@
+.side-menu-wrapper{
+    background-color: #555;
+    border-radius: 15px;
+    width: 75%;
+    height: 40px;
+    color: white !important;
+    /*position: relative;*/
+    margin: 25px auto;
+}
+.side-menu-wrapper .MuiTextField-root{
+    /*position: absolute;*/
+
+
+    width: 75%;
+    margin: -12px auto;
+
+}
+
+.menu-text{
+    color:white !important;
+}
+.side-menu-wrapper .MuiAutocomplete-endAdornment{
+    display: none;
+}
+
+.side-menu-wrapper .MuiInput-underline:before {
+    display: none;
+}
+#auto-complete-label{
+    color:#ccc;
+}
+
+.icons-wrapper{
+
+    min-height:200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.side-icons{
+    color:#fff;
+    background-color: #ff005a;
+    padding:4px;
+    border-radius: 5px;
+
+}
+.side-icons:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+.side-icons:active{
+    background-color: #61dafb;
+    transition: .3s;
+}
+
+
+.icon-holder-div{
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 2px;
+}
+.icon-holder-div:hover p {
+    color: #ff005a;
+    cursor: pointer;
+}
+.icon-holder-div p {
+    margin-top: 6px ;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+#outlined-search{
+    background-color: #666;
+    border-radius: 20px;
+    box-shadow: none;
+}
+.text-custom{
+    border-color: transparent;
+}
+.MuiOutlinedInput-notchedOutline{
+    border-color: transparent !important;
+}
+@keyframes example {
+    from {top: -300px;}
+    to {top: 0 ; }
+}

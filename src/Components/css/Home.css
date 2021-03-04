@@ -1,0 +1,18 @@
+.home-wrapper{
+    display: flex;
+    background-color: #333;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.side-menu{
+    /*width: 20%;*/
+    min-height: 100vw;
+    background-color: #444;
+}
+.home-body{
+    /*width:80%;*/
+    min-height: 100px;
+
+}
